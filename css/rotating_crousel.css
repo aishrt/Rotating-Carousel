@@ -1,0 +1,42 @@
+
+/*///rotating crousal css\\\\*/
+
+.client{float: left; width: 100%;}
+.client .clienthead{float: left; width: 100%;}
+
+/*////left side text css\\\\\*/
+.client .clienthead .col-sm-7{float: left; padding: 25px;}
+
+/*////right side img side css\\\*/
+.client .clienthead .col-sm-5{float: left;}
+.client .clienthead .col-sm-5 img{max-width: 100%;}
+
+/*////cards of crousal\\\\\\*/
+.client .clienthead .crou1 {width: 40em; height: 25em; margin: 0 auto; position: relative; left: -85px; }
+.client .clienthead .crou1 .pleft p{color: #fff;}
+.client .clienthead .crou1 li {float: left; width: 100%; display: inline-block; padding:; background: #000; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; transition: all .3s ease-in-out; overflow: hidden; list-style: none;}
+.items {position: absolute;}
+.main-pos {margin-left: 2em !important;z-index: 3000;}
+.left-pos {opacity: .3; margin-left: -17em !important; z-index: 1000; -webkit-transform: scale(.75); -moz-transform: scale(.75); transform: scale(.75);}
+.back-pos {margin-left: 2em !important; opacity: .05; -webkit-transform: scale(.5); -moz-transform: scale(.5); transform: scale(.5);}
+.right-pos {opacity: .3; margin-left:  21em !important; z-index: 1000; -webkit-transform: scale(.75); -moz-transform: scale(.75); transform: scale(.75); }
+
+
+
+/*///////---------media query for crousal------\\\\\\\\\*/
+
+@media only screen and (min-width: 200px) and (max-width: 767px){
+  .right-pos{margin-left: 107px !important;}
+  .left-pos{margin-left: -7px !important;}
+  .main-pos{margin-left: 3em !important;}
+.client .clienthead .crou1 {width: 17em; height: 40em;}
+.client .clienthead .col-sm-7{padding: 10px;}
+.leftp2 .l32 {top: -80px;}
+.car2{margin-top: 50px;}
+}
+
+
+@media only screen and (min-width: 768px)  and  (max-width: 1140px) {
+.client .clienthead .crou1 li {width: 92%;}
+}
+
